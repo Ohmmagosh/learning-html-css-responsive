@@ -47,6 +47,79 @@
                 <li>กำหนดขนาดให้พอดีกับพื้นที่ว่างแบบอัตโนมัติ (Sizing)</li>
             </ul>
         </div>
+        <div>
+            <h1>กำหนดทิศทางด้วย flex-direction</h1>
+            <ul>
+                <li>row (ค่าเริ่มต้น) จัดวาง item ในแนวนอนทิศทางเดียวกันกับแกนหลัก</li>
+                <li>column จัดวาง item ในแนวตั้งทิศทางเดียวกับแกนหลัก</li>
+                <li>row-revesre จัดวาง item ในแนวนอนทิศทางตรงข้ามกับแหนหลัก</li>
+                <li>column-reverse จัดวาง item ในแนวตั้งทิศทางตรงข้ามกับแกนหลัก</li>
+            </ul>
+        </div>
+        <div>
+            <h1>กำหนดขนาดด้วย flex-wrap</h1>
+            <p>กรณีที่ขนาด item ใหญ่กว่าพื้นที่ container</p>
+            <ul>
+                <li>nowrap จัดวาง item ที่เกินพื้นที่ container ไปด้านขวามือ</li>
+                <li>wrap จัดวาง item ที่เกินพื้นที่ container เรียงจากบนลงล่าง</li>
+                <li>wrap-reverse จัดวางitem ที่เกินพื้นที่ container เรียงจากล่างขึ้นบน</li>
+            </ul>
+        </div>
+        <div>
+            <h1>Flex-properties(item)</h1>
+            <ul>
+                <li>flex-shrink:ให้itemหดตัวจำนวนเท่าใดเมื่อเทียบกับitemอื่นๆค่าเริ่มต้นเป็น1</li>
+                <li>flex-grow:ให้itemขยายตัวจำนวนเท่าใดเมื่อเทียบกับitemอื่นๆค่าเริ่มต้นเป็น0</li>
+                <li>flex-basis:กำหนดค่าความยืดหยุ่นเริ่มต้น</li>
+                <li>flex:1 ทำให้itemที่อยู่แถวเดียวกันมีขนาดเท่ากัน</li>
+            </ul>
+        </div>
+        <div>
+            <h1>Flex Justify(จัดวางตำแหน่ง)</h1>
+            <h3>**เทียบกับแกนหลัก เช่น กำหนดแกนหลักเป็นแนวนอน</h3>
+            <h3>Justify-content</h3>
+            <ul>
+                <li>flex-startชิดซ้ายcontainerทิศทางตามแนวนอน</li>
+                <li>centerd กึ่งกลาง container ทิศวทางตามแนวนอน</li>
+                <li>flex-end ชิดขวา container ทิศทางตามแนวนอน</li>
+                <li>space-around ระยะห่างซ้ายขวาและขนาด item เท่ากัน</li>
+                <li>space-between ระยะห่างซ้ายขวาและขนาด item เท่ากัน(ติดมุม)</li>
+            </ul>
+        </div>
+        <div>
+            <h1>Flex Alignment(จัดวางตำแหน่ง item)</h1>
+            <h3>**เทียบกับแกนหลัก เช่น กำหนดแกนหลักเป็นแนวนอน</h3>
+            <h3>align-item(item ทุกตัว)และ align-self(item ที่ต้องการ)</h3>
+            <ul>
+                <li>stretch-กำหนดขนาด item เท่ากับขนาด container</li>
+                <li>flex-start ด้านบน container ทิศวทางตามแนวนอน</li>
+                <li>flex-end ด้านล่าง container ทิศทางตามแนวนอน</li>
+                <li>center กึ่งกลาง container ทิศทางตามแนวนอน</li>
+            </ul>
+        </div>
+        <div>
+            <h1>CSS Grid Layout</h1>
+            <p>flexbox ถูกออกแบบให้จัดการ Layout แบบทิศทางเดียว คือ 1 มิติ เช่น เรียงลำดับจากบนลงล่าง ซ้ายไปขวา เป็นต้น</p>
+            <p>แต่ Grid Layout ถูกออกแบบมาเพื่อจัดการlaout แบบ2มิติ คือ มีทั้งแบบแนวนอนและแบบแนวตั้งในเวลาเดียวกัน หรือมองง่ายๆก็เป็นแบบตาราง</p>
+            <ul>การใช้งาน
+                <li>display:gird;</li>
+            </ul>
+            <ul>กำหนดขนาดแถว(ความสูง):
+                <li>grid-templates-row:ความสูงของแถว 1,2,3;</li>
+            </ul>
+            <ul>กำหนดขนาดคอลัมน์(ความกว้าง)
+                <li>grid-template-colomn:ความกว้างของคอลัมน์ที่1,2,3;</li>
+            </ul>
+        </div>
+        <div>
+            <h1>Grid Properties อื่นๆ</h1>
+            <ul>
+                <li>กำหนดสัดส่วนพื้นที่ด้วย span</li>
+                <li>กำหนดสัดส่วนพื้นที่ด้วย fr</li>
+                <li>กำหนดระยะห่างด้วย gap</li>
+                <li>กำหนดชื่อพื้นที่ด้วย grid-template-area</li>
+            </ul>    
+        </div>
     </div>
 </body>
 </html>

@@ -1,0 +1,27 @@
+*{
+    box-sizing: 0;
+}
+.flex-container-1{
+    display: flex;
+    background-color: cornflowerblue;
+    flex-direction: column;
+}   
+.flex-container-2{
+    display: flex;
+    background-color: rgb(149, 179, 236);
+    flex-direction: row;
+}   
+.flex-container-3{
+    display: flex;
+    background-color: paleturquoise;
+    flex-direction: row-reverse;
+}   
+.item{
+    background: orange;
+    border: 2px solid #333;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}

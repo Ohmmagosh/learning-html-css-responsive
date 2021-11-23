@@ -1,4 +1,16 @@
-.container{
-    display: flex;
+*{
     box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    background: cornflowerblue;
+}
+.item{
+    border: 2px solid #333;
+    background: orange;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
 }

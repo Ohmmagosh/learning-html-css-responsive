@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    background-color: plum;
+    flex-direction: row;
+}
+.item{
+    border: 2px solid black;
+    width: 200px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    background: blanchedalmond;
+    text-align: center;
+}
+.item-2{
+    flex-grow: 1;
+}
