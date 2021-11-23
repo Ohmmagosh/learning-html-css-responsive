@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: #333;
+    color: white;
+    height: 50vh;
+    width: 100vw;
+    text-align: center;
+    padding: 2rem;
+    padding-top: 15rem;
+}
+header h1{
+    font-size: 3rem;
+}
+header p{
+    margin: 3rem;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #f4f4f4 ;
+    color: black;
+    padding: 0.75rem 2rem;
+
+}

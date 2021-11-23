@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide</title>
+</head>
+<body>
+    <div class="slide">
+        <div class="box">
+            <h1>Responsive Web Design</h1>
+            <p>การออกแบบเว็บที่ตอบสนองและแสดงผลได้ดีบนอุปกรณ์ต่างๆหรือขนาด หน้าจอที่หลากหลาย เช่น จอคอมพิวเตอร์ หรือสมาร์ทโฟร เป็นต้น</p>
+        </div>
+        <div class="box">
+            <h1>Responsive Web Design(Media Query)</h1>
+            <p>Meaid Query คือ รูปแบบการเขียน Style ให้แสดงผลตามขนาดหน้าจอที่แตกต่างกัน</p>
+            <h1>ความกว้างของขนาดอุปกรณ์</h1>
+            <ul>
+                <li>320px-480px: Mobile device</li>
+                <li>481px-768px: ipad, Tablets</li>
+                <li>769px-1024px: Laptops</li>
+                <li>1025px-1200px: Desktops</li>
+                <li>1201px เป็นต้นไป: TV , Wildscreen</li>
+            </ul>
+        </div>
+        <div class="box">
+            <h1>Viewport Unit</h1>
+            <p>ในอดีตเว็บถูกพัฒนาให้ทำงานบนจอคอมพิวเตอร์อย่างเดียว ถ้านำมาทำงานบนsmartphone, Taplet ในปัจจุบันอาจจะไม่สามารถแสดงผลได้ตามที่ต้องการ เช่นถ้าต้องการดูเนื้อหาในหน้าเว็บที่ต้องการ zoom และ scrollหน้าจอเท่านั้น</p>
+            <p>ในปัจจุบันจึงได้มีการพัฒนาและเพิ่ม meta tag ชื่อว่า viewport เข้ามาในหน้าเว็บเพื่อบอกว่าให้เว็บแสดงผลบน Smartphone , Tablet ได้ผ่านการอ้างอิงพื้นที่หรือสัดส่วนของ Web browser ที่อยู่ในอุปกรณ์นั้นๆในการแสดงหน้าเว็บให้เหมาะสมกับอุปกรณ์ดังกล่าว</p>
+        </div>
+        <div>
+            <h1>viewport Units</h1>
+            <ul>
+                <li>vw - บอกสัดส่วนความกว้างของ viewport (%)เช่น เรามีจอกว้าง 100px แต่ต้องการแสดงผล10% ของความกว้างทั้งหมด จะมีค่า10vw หรือพื้นที่ 10px หรือ 10/100 เป็นต้น ถ้าอยากกำหนดความกว้างของ viewport มีค่าเท่ากับ ความกว้างของbrowserจะมีค่าเท่ากับ 100vw</li>
+                <li>vh - บอกสัดส่วนความสูงของ viewport (%)</li>
+                <li>vmin - ค่า%ต่ำสุดของviewport</li>
+                <li>vmax - ค่า%สูงสุดของviewport</li>
+            </ul>
+        </div>
+        <div>
+            <h1>รู้จักกับ Flexbox</h1>
+            <p>Flexbox คือเครื่องมือใน CSS ที่ช่วยให้การจัดการ element ต่างๆมนหน้าเว็บมีความง่ายและยืดหยุ่นมากยิ่งขึ้น โดยทั่วไปการจัดการตำแหน่ง element ต่างๆต้องใช้layout mode คือ block,inline,position และอื่นๆ</p>
+            <p>การพัฒนาเว็บในปัจจุบันมีความหมายซับซ้อนมากยิ่งขึ้นทำให้การใช้ layout mode แบบเดิมไม่ตอบโจทย์เท่าที่ควร จึงได้มีการพัฒนาflexbox ขึ้นมาเพื่อใช้ในการจัดการ element ให้มีความยืดหยุ่นสูง โดยมีคุณสมบัติดังนี้</p>
+            <ul>
+                <li>จัดเรียงตำแหน่งของ element ได้ง่ายขึ้น เรียงจากบนลงล่าง ซ้ายไปขวา อื่นๆ</li>
+                <li>กำหนดขนาดให้พอดีกับพื้นที่ว่างแบบอัตโนมัติ (Sizing)</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
