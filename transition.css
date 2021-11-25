@@ -1,0 +1,23 @@
+body{
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.box{
+    background-color:yellowgreen;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    /* transition-property: background-color;
+    transition-duration: 1000ms;
+    transition-delay: 2000ms; */
+    transition: background-color 1000ms ,width 1000ms ease-in 1000ms ;
+}
+.box:hover{
+    background-color: tomato;
+    width: 500px;
+    border-radius: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 3fr 1fr;
+
+    grid-template-areas: 
+    'header header'
+    'sidebar content'
+    'footer footer'
+    ;
+}
+.header-item{
+    background-color: greenyellow;
+    grid-area: header;
+}
+.content-item{
+    background-color: orange;
+    grid-area: content;
+}
+.footer-item{
+    background-color: black;
+    color: white;
+    grid-area: footer;
+}
+.sidebar-item{
+    background-color: tomato;
+    grid-area: sidebar;
+}

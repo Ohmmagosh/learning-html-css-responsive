@@ -1,0 +1,17 @@
+*{
+    font-size:40px ;
+}
+a{
+    background-color: tomato;
+}
+a[target]{
+    background-color: yellowgreen;
+    color: whitesmoke;
+}
+a[target='_blank']{
+    background-color: violet;
+    color: black;
+}
+a[target="_self"]{
+    color: purple;
+}

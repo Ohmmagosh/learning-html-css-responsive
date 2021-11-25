@@ -1,0 +1,21 @@
+body{
+    background-color: #333;
+}
+.box{
+    background-color: tomato;
+    width: 200px;
+    height: 200px;
+    animation-name: animation1;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse ;
+    animation-timing-function: ease-in-out;
+}
+@keyframes animation1{
+    from{
+        width: 200px;
+    }
+    to{
+        width: 400px;
+    }
+}

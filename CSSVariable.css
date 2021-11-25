@@ -1,0 +1,29 @@
+:root{
+    --box:5px solid crimson;
+    --theme-color: rgb(226, 17, 17);
+    --shadow:10px 5px 10px var(--theme-color);
+    --spacing: 10px;
+    --font: 2.5rem
+}
+
+.box-1{
+    border: 1px solid black;
+    margin: var(--spacing);
+    box-shadow: var(--shadow);
+    font-size: var(--font);
+}
+.box-2{
+    border: var(--box);
+    margin: var(--spacing);
+    box-shadow: var(--shadow);
+    background-color: var(--theme-color);
+}
+.box-3{
+    border: 1px solid black;
+    margin: var(--spacing);
+    box-shadow: var(--shadow);
+
+}
+/* body{
+    background:var(--theme-color);
+} */

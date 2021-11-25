@@ -1,0 +1,10 @@
+p{
+    background-color: tomato;
+}
+/* descendant selector */
+div p{
+    background-color: yellowgreen;
+}
+div>p{
+    background-color: yellow;
+}

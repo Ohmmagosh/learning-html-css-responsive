@@ -1,0 +1,11 @@
+li{
+    padding: 0.25rem;
+    margin: 0.25rem;
+    list-style: none;
+}
+li:nth-child(odd){
+    background-color: tomato;
+}
+li:nth-child(even){
+    background-color: cyan;
+}

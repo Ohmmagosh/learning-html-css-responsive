@@ -1,0 +1,27 @@
+body{
+    background:url(https://images.unsplash.com/photo-1483134529005-4c93495107d5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80) no-repeat center center/cover  ;
+    color: #fff;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+header>h1{
+    font-size: 4rem;
+    margin: 1rem;
+}
+header::before{
+    content: "";
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}

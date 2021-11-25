@@ -1,0 +1,24 @@
+li{
+    padding: 0.25rem;
+    margin: 0.25rem;
+    list-style: none;
+}
+li:first-child{
+    background-color: yellowgreen;
+}
+li:last-child{
+    background-color: tomato;
+}
+/* li:nth-child(3){
+    background-color: violet;
+} */
+li:nth-child(10){
+    background-color: cornflowerblue;
+}
+li:nth-last-child(3){
+    background-color: crimson;
+    color: white;
+}
+li:nth-child(3n){
+    background-color: turquoise;
+}

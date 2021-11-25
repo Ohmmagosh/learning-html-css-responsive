@@ -1,0 +1,14 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    border: 2px sold black;
+    margin: 100px;
+    /* ย้ายตำแหน่ง */
+    /* transform: translate(100px,100px); */
+    /* transform: rotate(45deg); */
+    /* transform: scale(1.5 1.2); */
+    /* transform: skewX(50deg);
+    transform: skewY(30deg); */
+    transform: skew(10deg, 20deg);
+}
